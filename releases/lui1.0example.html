@@ -1,0 +1,28 @@
+Class Main
+
+Object name = GUI.SBox("What is your name?", "LUI")
+Object hello = "Hello, "
+Object goodbye = "Goodbye, "
+Object helloname = JoinStrings($hello$,$name$)
+GUI.VBox($helloname$, "LUI")
+
+Object var1 = "First Var"
+Object var2 = GUI.YNBox("Do you like Chocolate?", "LUI")
+
+
+
+if($var2$==true)
+{
+GUI.MBox("Cool!","LUI")
+}
+
+Object truevar = true
+
+if($truevar$==true){
+
+
+
+Object goodbyename = JoinStrings($goodbye$,$name$)
+
+GUI.VBox($goodbyename$,"LUI")
+}
